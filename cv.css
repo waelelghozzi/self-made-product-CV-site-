@@ -1,0 +1,225 @@
+
+
+@font-face {
+    font-family: made ;
+    src: url(Mohave-MediumItalic.otf);
+}
+@font-face {
+    font-family: made2 ;
+    src: url(Mohave-LightItalic.otf);
+}
+@font-face {
+    font-family: made3 ;
+    src: url(Mohave-BoldItalic.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: made;
+    letter-spacing: 1px;
+}
+body{
+    overflow: hidden;
+}
+.Bbody{
+    bottom: 0;
+    left: 0;
+display: flex;
+height: 100vh;
+flex-direction: row;
+}
+.sbody1{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: #2E2E2E ;
+color: aliceblue;
+
+}
+.sbody2{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    color: #2E2E2E;
+
+}
+.cel2,.cel3{
+   
+    height: 50%;
+    margin: 10px;
+    width: 100%;
+}
+.cel1{
+   
+    height: 40%;
+    margin: 10px;
+    width: 100%;
+}
+.cel12,.cel22,.cel32{
+   
+  
+    margin: 10px;
+    width: 100%;
+}
+
+.n{
+    margin-top: 66px;
+}
+.hr{
+   
+width: 75vw;
+margin-left: 24.5vw;
+    margin-top:40px;
+    background-color: rgb(150, 150, 150);
+}
+
+.family_name{
+
+ 
+    margin-left: 210px;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.name{
+
+    letter-spacing: 2px;
+    padding-top: 15px;
+    margin-left: 320px;
+    font-size: 60px;
+}
+.img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35px ;
+    border-radius: 36px;
+    height: 120px;
+    width: 120px;
+    border-color: white;
+    border: 2px;
+    border-style: solid;
+}
+
+ul{   
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size:25px;
+    row-gap: 4px;
+    font-family: made2;
+}
+.about,.skills{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.skills2{
+    margin-left: 260px;
+    font-size: 30px;
+}
+
+.cel3,.cel2{
+    justify-content: center;
+}
+
+.ul2{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size:20px;
+    row-gap: 4px;
+    font-family: made2;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+
+
+.b1,.b2,.b3,.b4,.b5{
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 4px;
+border-radius: 25px;
+margin-top: 3px;
+}
+.ul2 li{
+   margin-top: 10px;
+}
+.b1{
+    width: 80px;
+}
+.b2{
+    width: 180px;
+}
+.b3{
+width: 210px;
+}
+.b4{
+    width: 140px;
+}
+.b5{
+    width: 200px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.c1,.c2{
+    width: 100%;
+}
+.f1{    
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: made3;
+    letter-spacing: 2px;
+}
+.f1 span{
+    color: rgb(78, 78, 78);
+    font-size: 77px;
+
+}
+.f2{
+    margin-left: 40px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: made2;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.cel22{
+    align-content: center;
+    height: 25%;
+}
+.cel12{
+    align-content: center;
+height: 27%;
+}
+.ul3 li{
+    color: rgb(87, 87, 87);
+   margin-left: 200px;
+}
+.pp{
+    line-height: 21px;
+font-size: 15px;text-justify:inter-word;
+width: 850px;
+  color: black;
+  padding-top: 3px;
+  padding-bottom: 20px;
+
+}
+.back{
+    text-decoration: none;
+    color: white;
+transition: 500ms ease;
+}
+
+.back:hover{
+color: rgb(126, 126, 126);
+}
+
